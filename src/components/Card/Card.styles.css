@@ -1,0 +1,61 @@
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.task-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clipboard {
+    background-color: rgba(201, 196, 189, 0.519);
+    padding: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+
+
+.details,
+.comments,
+.attachment,
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attachment-btn {
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+}
